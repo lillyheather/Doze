@@ -1,0 +1,54 @@
+/* Page base */
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    /* keep the body full-height for layout but don't center everything */
+    min-height: 100vh;
+    max-height: 100vh; /* fill viewport vertically */
+    display: flex;
+    max-width: 100vw; /* prevent horizontal scrolling */
+
+}
+
+/* .title will center only its contents (the H1) in the viewport */
+.title{
+    min-height: 100vh; /* fill viewport vertically */
+    display: flex;
+    flex-direction: column; /* stack children vertically (h1 then button) */
+    justify-content: center; /* vertical centering of the column */
+    align-items: center; /* horizontal centering */
+    gap: 1rem; /* space between heading and button */
+    text-align: center;
+}
+
+/* Headings: simpler, don't force weird widths or margins */
+h1{
+    background-color: gray;
+    width: auto;
+    font-size: 100px; /* adjust to taste */
+    margin: 0;
+    padding: 0.2em 0.6em;
+}
+
+button{
+    align-items: center;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+    font-size: 50px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+p{
+    /*min-height: 100vh; /* fill viewport vertically */
+    display: flex;
+    flex-direction: column; /* stack children vertically (h1 then button) */
+    justify-content: center; /* vertical centering of the column */
+    align-items: center; /* horizontal centering */
+    text-align: center;    
+    font-size: 50px; /* adjust to taste */
+
+}
