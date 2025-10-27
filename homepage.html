@@ -5,20 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Homepage</title>
         <link rel="stylesheet" href="theme.css">
+        <script src="coding.js" defer></script>
     </head>
     
-    <body>
-        <a href="welcome.html">
-            <button>Back</button>
-        </a>
-        <a href="hotline.html"><button>Hotline</button></a>
+    <body>        
+        <div class="back"><a href="welcome.html"><button>Back</button></a></div>
+        <div class="info">
+            <a href="hotline.html"><button>Hotlines</button></a>
+        </div>
 
-        <p>
-            "quote"
-        </p>
+        <div id="quoteDisplay" class="quote"></div> 
+        <script>
+            console.log(quoteDisplay);
+        </script>
+
         <div class="activities">
             <a href="trivia.html"><button>Trivia</button></a>
-            <a href="journal.html"><button>Journal</button></a>        
+            <a href="journal.html"><button>Journal</button></a>
+            <a href="game.html"><button>Game</button></a>
         </div>
 
     </body>
