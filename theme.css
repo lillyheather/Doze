@@ -47,7 +47,7 @@ button{
     color: black;
     border-radius: 5px;
     /* responsive font and padding: scale with viewport but clamp to sensible min/max */
-    font-size: clamp(3rem, 6vw, 7rem);
+    font-size: clamp(3rem, 4vw, 5rem);
     margin: 0 0.5rem;
     padding: clamp(6px, 1.2vw, 12px) clamp(10px, 2.2vw, 18px);
     border: none;
@@ -104,4 +104,9 @@ p{
     /* paragraph uses the same fluid base (smaller than the h1 by design) */
     font-size: var(--fluid-base);
     max-width: 80ch;    
+}
+
+form{
+    font-size: var(--fluid-base);
+
 }
